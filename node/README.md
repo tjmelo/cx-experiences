@@ -1,6 +1,6 @@
 Experiences by Framework Node.js
 =
-> All of code snippets are experiences for application tests.
+> All the code snippets are experienced by tests in applications.
 
 
 <hr />
