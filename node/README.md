@@ -30,9 +30,7 @@ Follow through with the sessions bellow:
   <hr />
   <strong>Creating a trivial server</strong>
   <br />
-  <code>
-    npm run cap1:server
-  </code>
+  <code>npm run cap1:server</code>
 
   <strong>Creating a personal Hello World</strong>
   <hr />
