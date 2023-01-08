@@ -1,7 +1,7 @@
 import { createServer } from "http";
 import { parse } from 'url';
 import { readFileSync, stat } from "fs";
-import { log } from '../assets/log.mjs';
+import { log } from '../assets/log';
 
 const queryString = (query, req, res) => {
     query === undefined && (query = 'world =]')
