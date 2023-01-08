@@ -36,9 +36,7 @@ Follow through with the sessions bellow:
 
   <strong>Creating a personal Hello World</strong>
   <hr />
-  <code>
-    npm run cap1:hello
-  </code>
+  <code>npm run cap1:hello</code>
 
   _Exemple with conditional URL. Type: http://localhost:3000/?name=node_
 
