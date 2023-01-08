@@ -33,6 +33,7 @@ Follow through with the sessions bellow:
   <code>npm run cap1:server</code>
   <hr />
   <strong>Creating a personal Hello World</strong>
+  <br />
   <code>npm run cap1:hello</code>
 
   _Exemple with conditional URL. Type: http://localhost:3000/?name=node_
