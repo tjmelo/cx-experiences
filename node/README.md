@@ -31,9 +31,8 @@ Follow through with the sessions bellow:
   <strong>Creating a trivial server</strong>
   <br />
   <code>npm run cap1:server</code>
-
-  <strong>Creating a personal Hello World</strong>
   <hr />
+  <strong>Creating a personal Hello World</strong>
   <code>npm run cap1:hello</code>
 
   _Exemple with conditional URL. Type: http://localhost:3000/?name=node_
