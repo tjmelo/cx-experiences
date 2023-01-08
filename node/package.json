@@ -4,10 +4,14 @@
   "description": "Node js concepts experience book",
   "scripts": {
     "cap1:server": "nodemon --inspect cap.1/server.js",
-    "cap1:hello": "nodemon --inspect cap.1/hello-world.js"
+    "cap1:hello": "nodemon --inspect cap.1/hello-world.js",
+    "prepare": "husky install"
   },
   "type": "module",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
 }
