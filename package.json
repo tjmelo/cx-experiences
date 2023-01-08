@@ -1,0 +1,13 @@
+{
+  "name": "node.js.book",
+  "version": "1.0.0",
+  "description": "Node js concepts experience book",
+  "scripts": {
+    "cap1:server": "nodemon --inspect cap.1/server.js",
+    "cap1:hello": "nodemon --inspect cap.1/hello-world.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
