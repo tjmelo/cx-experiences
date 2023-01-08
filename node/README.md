@@ -21,7 +21,7 @@ Instructions
 Download the project and install the necessary dependencies
 
 ```console
-tmx@mercury:~$ npm install
+cx@experiences:~$ npm install
 ```
 Follow through with the sessions bellow:
 
