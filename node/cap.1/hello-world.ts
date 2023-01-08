@@ -21,7 +21,7 @@ const queryString = (query, req, res) => {
             }
         })
     } else {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
+        res.writeHead(process.env.STATUS_CODE, { 'Content-Type': 'text/plain' });
         res.end(`Hello ${query} \n`)
     }
 }
@@ -31,6 +31,6 @@ const server = (req, res) => {
     queryString(name, req, res);
 }
 
-createServer(server).listen(3000)
+createServer(server).listen(process.env.APP_PORT)
 
 log()
