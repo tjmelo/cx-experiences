@@ -27,9 +27,9 @@ cx@experiences:~$ npm install
 ### Note
 For security questions, all information about port and status code were allocated inside a `.env`. So, it's necessary to create a new file `.env` at the root of application, as bellow:
 
-```console
-  APP_PORT="3000" #port example
-  STATUS_CODE="200" #status code example
+```bash
+APP_PORT=3000 #port example
+STATUS_CODE=200 #status code example
 ```
 
 Follow through with the sessions bellow:
@@ -45,6 +45,6 @@ Follow through with the sessions bellow:
   <br />
   <code>npm run cap1:hello</code>
 
-  _Exemple with conditional URL. Type: http://localhost:3000/?name=node_
+  _Example with conditional URL. Type: http://localhost:3000/?name=node_
 
 </details>
