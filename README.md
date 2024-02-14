@@ -5,8 +5,10 @@ Experiences by Framework Node.js
 
 <hr />
 
+<br />
+
 <div align="center">
-  <img src="assets/img/logo-node.png">
+  <img width="250" src="assets/img/logo-node.png">
 </div>
 
 ### Requirements 
