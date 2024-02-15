@@ -27,17 +27,17 @@ cx@experiences:~$ npm install
 ```
 
 ### Note
-For security questions, all information about port and status code were allocated inside a `.env`. So, it's necessary to create a new file `.env` at the root of application, as bellow:
+For security questions, all information about the port and status code was allocated inside a `.env`. So, it's necessary to create a new file `.env` at the root of the application, as below:
 
 ```bash
 APP_PORT=3000 #port example
 STATUS_CODE=200 #status code example
 ```
 
-Follow through with the sessions bellow:
+Follow through with the sessions below:
 
 <details>
-  <summary>Session 1 :zap:</summary>
+  <summary>References Chapter 1</summary>
   <hr />
   <strong>Creating a trivial server</strong>
   <br />
@@ -49,4 +49,18 @@ Follow through with the sessions bellow:
 
   _Example with conditional URL. Type: http://localhost:3000/?name=node_
 
+</details>
+
+<details>
+  <summary>References Chapter 2</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:buffers</code><br />
+  <code>start:eventEmitter</code><br />
+  <code>start:eventEmitterInherits</code><br />
+  <code>start:getChangeDataByFile</code><br />
+  <code>start:timers</code><br />
+  <code>start:stdin</code><br />
+  <code>start:server2</code>
 </details>
