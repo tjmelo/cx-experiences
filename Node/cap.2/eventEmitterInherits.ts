@@ -1,7 +1,7 @@
 import { EventEmitter } from "events";
 import { createWriteStream } from "fs";
 
-class InputChecker extends EventEmitter {
+export class InputChecker extends EventEmitter {
     name: string;
     writeStream: import("fs").WriteStream;
 
@@ -16,10 +16,10 @@ class InputChecker extends EventEmitter {
     }
 
     check(input: string) {
-        let command = input.trim().substr(0, 3);
+        let command = input.trim().substring(0, 3);
 
         if (command == 'wr:' ) {
-            this.emit('write', input.substr(3, input.length))
+            this.emit('write', input.substring(3, input.length))
         } else if (command == 'en:') {
             this.emit('end')
         } else {
@@ -40,3 +40,5 @@ process.stdin.on('readable', () => {
     const input = process.stdin.read();
     input !== null && ic.check(input)
 })
+
+console.log('Type something here...')

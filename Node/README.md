@@ -5,8 +5,10 @@ Experiences by Framework Node.js
 
 <hr />
 
+<br />
+
 <div align="center">
-  <img src="assets/img/logo-node.png">
+  <img width="250" src="assets/img/logo-node.png">
 </div>
 
 ### Requirements 
@@ -45,6 +47,6 @@ Follow through with the sessions bellow:
   <br />
   <code>npm run cap1:hello</code>
 
-  _Exemple with conditional URL. Type: http://localhost:3000/?name=node_
+  _Example with conditional URL. Type: http://localhost:3000/?name=node_
 
 </details>

@@ -8,6 +8,7 @@ const timer2 = setInterval((name) => {
 
 setTimeout(() => {
     console.log('Stopping interval...')
+    
     // Stop interval immediately..
     timer2.unref()
 
