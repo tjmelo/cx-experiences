@@ -18,6 +18,8 @@
     "cap3:async": "ts-node cap.3/moduleAsync",
     "cap3:sandbox": "ts-node cap.3/contextProtectedSandbox",
 
+    "cap4:repl": "ts-node cap.4/newRepl",
+
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
     
@@ -31,9 +33,10 @@
 
     "start:require": "nodemon --exec 'npm run cap3:require' -e ts",
     "start:async": "nodemon --exec 'npm run cap3:async' -e ts",
-    "start:sandbox": "nodemon --exec 'npm run cap3:sandbox' -e ts"
+    "start:sandbox": "nodemon --exec 'npm run cap3:sandbox' -e ts",
 
-
+    "start:repl": "nodemon --exec 'npm run cap4:repl' -e ts"
+    
   },
   "keywords": [],
   "author": "",

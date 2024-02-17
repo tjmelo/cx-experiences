@@ -66,7 +66,6 @@ STATUS_CODE=200 #status code example
   <hr>
 </details>
 
-
 <details>
   <summary>References Chapter 3</summary>
   <hr />
@@ -75,4 +74,13 @@ STATUS_CODE=200 #status code example
   <code>npm run start:require</code><br />
   <code>npm run start:async</code><br />
   <code>npm run start:sandbox</code><br />
+  <hr />
+</details>
+
+<details>
+  <summary>References Chapter 4</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:repl</code><br />
 </details>
