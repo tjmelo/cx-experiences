@@ -9,6 +9,8 @@ setInterval(() => {
     emitter.emit('timed', counter++)
 }, 3000)
 
+console.log(counter)
+
 emitter.on('timed', (data) => 
     data <= LIMIT_COUNT 
     ? console.log(`timed ${data}`)

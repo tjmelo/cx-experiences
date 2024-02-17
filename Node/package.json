@@ -5,23 +5,35 @@
   "scripts": {
     "cap1:server": "ts-node cap.1/server",
     "cap1:hello": "ts-node cap.1/hello-world",
+
     "cap2:buffers": "ts-node cap.2/buffers",
     "cap2:eventEmitter": "ts-node cap.2/eventEmitter",
     "cap2:eventEmitterInherits": "ts-node cap.2/eventEmitterInherits",
     "cap2:getChangeDataByFile": "ts-node cap.2/getChangeDataByFile",
     "cap2:timers": "ts-node cap.2/timers",
     "cap2:stdin": "ts-node cap.2/stdin",
-    "cap2:server": "ts-node cap.2/server",
+    "cap2:server2": "ts-node cap.2/server",
+    
+    "cap3:require": "ts-node cap.3/getInformationsByRequire",
+    "cap3:async": "ts-node cap.3/moduleAsync",
+    "cap3:sandbox": "ts-node cap.3/contextProtectedSandbox",
 
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
+    
     "start:buffers": "nodemon --exec 'npm run cap2:buffers' -e ts",
     "start:eventEmitter": "nodemon --exec 'npm run cap2:eventEmitter' -e ts",
     "start:eventEmitterInherits": "nodemon --exec 'npm run cap2:eventEmitterInherits' -e ts",
     "start:getChangeDataByFile": "nodemon --exec 'npm run cap2:getChangeDataByFile' -e ts",
     "start:timers": "nodemon --exec 'npm run cap2:timers' -e ts",
     "start:stdin": "nodemon --exec 'npm run cap2:stdin' -e ts",
-    "start:server2": "nodemon --exec 'npm run cap2:server' -e ts"
+    "start:server2": "nodemon --exec 'npm run cap2:server' -e ts",
+
+    "start:require": "nodemon --exec 'npm run cap3:require' -e ts",
+    "start:async": "nodemon --exec 'npm run cap3:async' -e ts",
+    "start:sandbox": "nodemon --exec 'npm run cap3:sandbox' -e ts"
+
+
   },
   "keywords": [],
   "author": "",
@@ -33,6 +45,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
+    "async": "^3.2.5",
     "dotenv": "^16.0.3"
   }
 }
