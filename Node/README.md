@@ -34,7 +34,7 @@ APP_PORT=3000 #port example
 STATUS_CODE=200 #status code example
 ```
 
-Follow through with the sessions below:
+## Chapters' references
 
 <details>
   <summary>References Chapter 1</summary>
@@ -48,7 +48,7 @@ Follow through with the sessions below:
   <code>npm run cap1:hello</code>
 
   _Example with conditional URL. Type: http://localhost:3000/?name=node_
-
+  <hr>
 </details>
 
 <details>
@@ -57,10 +57,22 @@ Follow through with the sessions below:
   <strong>Commands run and test:</strong>
   <br />
   <code>npm run start:buffers</code><br />
-  <code>start:eventEmitter</code><br />
-  <code>start:eventEmitterInherits</code><br />
-  <code>start:getChangeDataByFile</code><br />
-  <code>start:timers</code><br />
-  <code>start:stdin</code><br />
-  <code>start:server2</code>
+  <code>npm run start:eventEmitter</code><br />
+  <code>npm run start:eventEmitterInherits</code><br />
+  <code>npm run start:getChangeDataByFile</code><br />
+  <code>npm run start:timers</code><br />
+  <code>npm run start:stdin</code><br />
+  <code>npm run start:server2</code>
+  <hr>
+</details>
+
+
+<details>
+  <summary>References Chapter 3</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:require</code><br />
+  <code>npm run start:async</code><br />
+  <code>npm run start:sandbox</code><br />
 </details>
