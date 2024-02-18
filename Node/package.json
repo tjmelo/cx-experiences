@@ -20,6 +20,12 @@
 
     "cap4:repl": "ts-node cap.4/newRepl",
 
+    "cap5:server": "ts-node cap.5/server",
+    "cap5:staticServer": "ts-node cap.5/staticServer",
+    "cap5:queryStringParser": "ts-node cap.5/queryStringParser",
+    "cap5:getServerPost": "ts-node cap.5/getServerPost",
+    "cap5:getClientPost": "ts-node cap.5/getClientPost",
+
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
     
@@ -35,7 +41,13 @@
     "start:async": "nodemon --exec 'npm run cap3:async' -e ts",
     "start:sandbox": "nodemon --exec 'npm run cap3:sandbox' -e ts",
 
-    "start:repl": "nodemon --exec 'npm run cap4:repl' -e ts"
+    "start:repl": "nodemon --exec 'npm run cap4:repl' -e ts",
+
+    "start:server3": "nodemon --exec 'npm run cap5:server' -e ts",
+    "start:staticServer": "nodemon --exec 'npm run cap5:static-server' -e ts",
+    "start:queryStringParser": "nodemon --exec 'npm run cap5:queryStringParser' -e ts",
+    "start:getServerPost": "nodemon --exec 'npm run cap5:getServerPost' -e ts",
+    "start:getClientPost": "nodemon --exec 'npm run cap5:getClientPost' -e ts"
     
   },
   "keywords": [],

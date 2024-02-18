@@ -83,4 +83,17 @@ STATUS_CODE=200 #status code example
   <strong>Commands run and test:</strong>
   <br />
   <code>npm run start:repl</code><br />
+  <hr>
+</details>
+
+<details>
+  <summary>References Chapter 5</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:server3</code><br />
+  <code>npm run start:staticServer</code><br />
+  <code>npm run start:queryStringParser</code><br />
+  <code>npm run start:getServerPost</code><br />
+  <code>npm run tart:getClientPost</code><br />
 </details>
