@@ -27,6 +27,8 @@
     "cap6:moduleReadLline": "ts-node cap.6/moduleReadLline",
     "cap6:readDir": "ts-node cap.6/readDir",
     "cap6:writeAtFile": "ts-node cap.6/writeAtFile",
+    "cap9:promisifying": "ts-node cap.9/promisifying",
+    "cap9:promisifyingWithWrite": "ts-node cap.9/promisifyingWithWrite",
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
     "start:buffers": "nodemon --exec 'npm run cap2:buffers' -e ts",
@@ -50,7 +52,9 @@
     "start:moduleOS": "nodemon --exec 'npm run cap6:moduleOS' -e ts",
     "start:moduleReadLline": "nodemon --exec 'npm run cap6:moduleReadLline' -e ts",
     "start:readDir": "nodemon --exec 'npm run cap6:readDir' -e ts",
-    "start:writeAtFile": "nodemon --exec 'npm run cap6:writeAtFile' -e ts"
+    "start:writeAtFile": "nodemon --exec 'npm run cap6:writeAtFile' -e ts",
+    "start:promisifying": "nodemon --exec 'npm run cap9:promisifying' -e ts",
+    "start:promisifyingWithWrite": "nodemon --exec 'npm run cap9:promisifyingWithWrite' -e ts"
   },
   "keywords": [],
   "author": "",

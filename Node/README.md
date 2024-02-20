@@ -109,5 +109,15 @@ STATUS_CODE=200 #status code example
   <code>npm run start:moduleOS</code><br />
   <code>npm run start:moduleReadLline</code><br />
   <code>npm run start:readDir</code><br />
-  <code>npm run start:writeAtFile</code><br />
+  <code>npm run start:writeAtFile</code>
+</details>
+
+<details>
+  <summary>References Chapter 9</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:promisifying</code><br />
+  <code>npm run start:promisifyingWithWrite</code>
+  <hr />
 </details>
