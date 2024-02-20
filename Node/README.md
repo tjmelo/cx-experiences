@@ -34,7 +34,7 @@ APP_PORT=3000 #port example
 STATUS_CODE=200 #status code example
 ```
 
-## Chapters' references
+## Chapters' run references
 
 <details>
   <summary>References Chapter 1</summary>
@@ -95,5 +95,19 @@ STATUS_CODE=200 #status code example
   <code>npm run start:staticServer</code><br />
   <code>npm run start:queryStringParser</code><br />
   <code>npm run start:getServerPost</code><br />
-  <code>npm run tart:getClientPost</code><br />
+  <code>npm run start:getClientPost</code><br />
+  <hr>
+</details>
+
+<details>
+  <summary>References Chapter 6</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:libChokidar</code><br />
+  <code>npm run start:libZlib</code><br />
+  <code>npm run start:moduleOS</code><br />
+  <code>npm run start:moduleReadLline</code><br />
+  <code>npm run start:readDir</code><br />
+  <code>npm run start:writeAtFile</code><br />
 </details>

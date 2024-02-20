@@ -5,7 +5,6 @@
   "scripts": {
     "cap1:server": "ts-node cap.1/server",
     "cap1:hello": "ts-node cap.1/hello-world",
-
     "cap2:buffers": "ts-node cap.2/buffers",
     "cap2:eventEmitter": "ts-node cap.2/eventEmitter",
     "cap2:eventEmitterInherits": "ts-node cap.2/eventEmitterInherits",
@@ -13,22 +12,23 @@
     "cap2:timers": "ts-node cap.2/timers",
     "cap2:stdin": "ts-node cap.2/stdin",
     "cap2:server2": "ts-node cap.2/server",
-    
     "cap3:require": "ts-node cap.3/getInformationsByRequire",
     "cap3:async": "ts-node cap.3/moduleAsync",
     "cap3:sandbox": "ts-node cap.3/contextProtectedSandbox",
-
     "cap4:repl": "ts-node cap.4/newRepl",
-
     "cap5:server": "ts-node cap.5/server",
     "cap5:staticServer": "ts-node cap.5/staticServer",
     "cap5:queryStringParser": "ts-node cap.5/queryStringParser",
     "cap5:getServerPost": "ts-node cap.5/getServerPost",
     "cap5:getClientPost": "ts-node cap.5/getClientPost",
-
+    "cap6:libChokidar": "ts-node cap.6/libChokidar",
+    "cap6:libZlib": "ts-node cap.6/libZlib",
+    "cap6:moduleOS": "ts-node cap.6/moduleOS",
+    "cap6:moduleReadLline": "ts-node cap.6/moduleReadLline",
+    "cap6:readDir": "ts-node cap.6/readDir",
+    "cap6:writeAtFile": "ts-node cap.6/writeAtFile",
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
-    
     "start:buffers": "nodemon --exec 'npm run cap2:buffers' -e ts",
     "start:eventEmitter": "nodemon --exec 'npm run cap2:eventEmitter' -e ts",
     "start:eventEmitterInherits": "nodemon --exec 'npm run cap2:eventEmitterInherits' -e ts",
@@ -36,19 +36,21 @@
     "start:timers": "nodemon --exec 'npm run cap2:timers' -e ts",
     "start:stdin": "nodemon --exec 'npm run cap2:stdin' -e ts",
     "start:server2": "nodemon --exec 'npm run cap2:server' -e ts",
-
     "start:require": "nodemon --exec 'npm run cap3:require' -e ts",
     "start:async": "nodemon --exec 'npm run cap3:async' -e ts",
     "start:sandbox": "nodemon --exec 'npm run cap3:sandbox' -e ts",
-
     "start:repl": "nodemon --exec 'npm run cap4:repl' -e ts",
-
     "start:server3": "nodemon --exec 'npm run cap5:server' -e ts",
     "start:staticServer": "nodemon --exec 'npm run cap5:static-server' -e ts",
     "start:queryStringParser": "nodemon --exec 'npm run cap5:queryStringParser' -e ts",
     "start:getServerPost": "nodemon --exec 'npm run cap5:getServerPost' -e ts",
-    "start:getClientPost": "nodemon --exec 'npm run cap5:getClientPost' -e ts"
-    
+    "start:getClientPost": "nodemon --exec 'npm run cap5:getClientPost' -e ts",
+    "start:libChokidar": "nodemon --exec 'npm run cap6:libChokidar' -e ts",
+    "start:libZlib": "nodemon --exec 'npm run cap6:libZlib' -e ts",
+    "start:moduleOS": "nodemon --exec 'npm run cap6:moduleOS' -e ts",
+    "start:moduleReadLline": "nodemon --exec 'npm run cap6:moduleReadLline' -e ts",
+    "start:readDir": "nodemon --exec 'npm run cap6:readDir' -e ts",
+    "start:writeAtFile": "nodemon --exec 'npm run cap6:writeAtFile' -e ts"
   },
   "keywords": [],
   "author": "",
@@ -61,6 +63,7 @@
   },
   "dependencies": {
     "async": "^3.2.5",
+    "chokidar": "^3.6.0",
     "dotenv": "^16.0.3"
   }
 }
