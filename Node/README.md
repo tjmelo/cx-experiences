@@ -109,5 +109,16 @@ STATUS_CODE=200 #status code example
   <code>npm run start:moduleOS</code><br />
   <code>npm run start:moduleReadLline</code><br />
   <code>npm run start:readDir</code><br />
-  <code>npm run start:writeAtFile</code><br />
+  <code>npm run start:writeAtFile</code>
+  <hr />
 </details>
+
+<details>
+  <summary>References Chapter 8</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:childProcess</code><br />
+  <code>npm run start:findChildProcess</code><br />
+  <code>npm run start:findChildProcessWithoutBuffer</code><br />
+  </details>
