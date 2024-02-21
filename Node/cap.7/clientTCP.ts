@@ -16,7 +16,7 @@ process.stdin.on('data', (data) => {
     client.write(data);
 });
 
-//when get the data, send us to console
+//when get the data, send to console
 client.on('data', (data) => {
     console.log(data);
 });
