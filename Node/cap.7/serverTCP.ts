@@ -16,9 +16,7 @@ const server = createServer((conn) => {
     })
 }).listen(PORT);
 
-server.on('listening', () => {
-    console.log(`Listing on port ${PORT}`);
-});
+server.on('listening', () => console.log(`Listing on port ${PORT}`));
 
 server.on('error', (err) => {
     if(err.name == 'EADDRINUSE') {
