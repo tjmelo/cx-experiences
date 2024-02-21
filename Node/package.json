@@ -26,7 +26,12 @@
     "cap6:moduleOS": "ts-node cap.6/moduleOS",
     "cap6:moduleReadLline": "ts-node cap.6/moduleReadLline",
     "cap6:readDir": "ts-node cap.6/readDir",
-    "cap6:writeAtFile": "ts-node cap.6/writeAtFile",
+    "cap6:writeAtFile": "ts-node cap.7/writeAtFile",
+    "cap7:clientTCP": "ts-node cap.7/clientTCP",
+    "cap7:clientUDP": "ts-node cap.7/clientUDP",
+    "cap7:serverHTTPS": "ts-node cap.7:serverHTTPS",
+    "cap7:serverTCP": "ts-node cap.7/serverTCP",
+    "cap7:serverUDP": "ts-node cap.7/serverUDP",
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
     "start:buffers": "nodemon --exec 'npm run cap2:buffers' -e ts",
@@ -50,7 +55,12 @@
     "start:moduleOS": "nodemon --exec 'npm run cap6:moduleOS' -e ts",
     "start:moduleReadLline": "nodemon --exec 'npm run cap6:moduleReadLline' -e ts",
     "start:readDir": "nodemon --exec 'npm run cap6:readDir' -e ts",
-    "start:writeAtFile": "nodemon --exec 'npm run cap6:writeAtFile' -e ts"
+    "start:writeAtFile": "nodemon --exec 'npm run cap6:writeAtFile' -e ts",
+    "start:clientTCP": "nodemon --exec 'npm run cap7:clientTCP' -e ts",
+    "start:clientUDP": "nodemon --exec 'npm run cap7:clientUDP' -e ts",
+    "start:serverHTTPS": "nodemon --exec 'npm run cap7:serverHTTPS' -e ts",
+    "start:serverTCP": "nodemon --exec 'npm run cap7:serverTCP' -e ts",
+    "start:serverUDP": "nodemon --exec 'npm run cap7:serverUDP' -e ts"
   },
   "keywords": [],
   "author": "",
@@ -64,6 +74,7 @@
   "dependencies": {
     "async": "^3.2.5",
     "chokidar": "^3.6.0",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "node-mysql": "^0.4.2"
   }
 }
