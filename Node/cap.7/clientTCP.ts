@@ -15,9 +15,7 @@ client.connect(PORT, 'localhost', () => {
 process.stdin.on('data', (data) => client.write(data));
 
 //when get the data, send to console
-client.on('data', (data) => {
-    console.log(data);
-});
+client.on('data', (data) => console.log(data));
 
 //when the server closes the connection
 client.on('close', () => {
