@@ -110,6 +110,31 @@ STATUS_CODE=200 #status code example
   <code>npm run start:moduleReadLline</code><br />
   <code>npm run start:readDir</code><br />
   <code>npm run start:writeAtFile</code>
+  <hr />
+</details>
+
+<details>
+  <summary>References Chapter 7</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:clientTCP</code><br />
+  <code>npm run start:clientUDP</code><br />
+  <code>npm run start:serverHTTPS</code><br />
+  <code>npm run start:serverTCP</code><br />
+  <code>npm run start:serverUDP</code>
+  <hr />
+</details>
+
+<details>
+  <summary>References Chapter 8</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:childProcess</code><br />
+  <code>npm run start:findChildProcess</code><br />
+  <code>npm run start:findChildProcessWithoutBuffer</code><br />
+  <hr />
 </details>
 
 <details>
@@ -119,5 +144,4 @@ STATUS_CODE=200 #status code example
   <br />
   <code>npm run start:promisifying</code><br />
   <code>npm run start:promisifyingWithWrite</code>
-  <hr />
 </details>
