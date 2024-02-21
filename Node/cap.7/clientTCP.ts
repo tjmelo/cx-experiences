@@ -12,9 +12,7 @@ client.connect(PORT, 'localhost', () => {
 });
 
 //get data, send to server
-process.stdin.on('data', (data) => {
-    client.write(data);
-});
+process.stdin.on('data', (data) => client.write(data));
 
 //when get the data, send to console
 client.on('data', (data) => {
