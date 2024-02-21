@@ -18,6 +18,4 @@ process.stdin.on('data', (data) => client.write(data));
 client.on('data', (data) => console.log(data));
 
 //when the server closes the connection
-client.on('close', () => {
-    console.log('Connection is closed.')
-})
+client.on('close', () => console.log('Connection is closed.'));
