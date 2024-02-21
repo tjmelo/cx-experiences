@@ -11,9 +11,7 @@ const server = createServer((conn) => {
         conn.write(`Repeating ${data}`);
     });
 
-    conn.on('close', () => {
-        console.log('Client close connection...');
-    })
+    conn.on('close', () => console.log('Client close connection...'));
 }).listen(PORT);
 
 server.on('listening', () => console.log(`Listing on port ${PORT}`));
