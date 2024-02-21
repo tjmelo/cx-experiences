@@ -134,4 +134,14 @@ STATUS_CODE=200 #status code example
   <code>npm run start:childProcess</code><br />
   <code>npm run start:findChildProcess</code><br />
   <code>npm run start:findChildProcessWithoutBuffer</code><br />
-  </details>
+  <hr />
+</details>
+
+<details>
+  <summary>References Chapter 9</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:promisifying</code><br />
+  <code>npm run start:promisifyingWithWrite</code>
+</details>

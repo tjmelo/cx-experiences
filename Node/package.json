@@ -35,6 +35,8 @@
     "cap8:childProcess": "ts-node cap.8/childProcess",
     "cap8:findChildProcess": "ts-node cap.8/findChildProcess",
     "cap8:findChildProcessWithoutBuffer": "ts-node cap.8/findChildProcessWithoutBuffer",
+    "cap9:promisifying": "ts-node cap.9/promisifying",
+    "cap9:promisifyingWithWrite": "ts-node cap.9/promisifyingWithWrite",
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
     "start:buffers": "nodemon --exec 'npm run cap2:buffers' -e ts",
@@ -67,6 +69,8 @@
     "start:childProcess": "nodemon --exec 'npm run cap8:childProcess' -e ts",
     "start:findChildProcess": "nodemon --exec 'npm run cap8:findChildProcess' -e ts",
     "start:findChildProcessWithoutBuffer": "nodemon --exec 'npm run cap8:findChildProcessWithoutBuffer' -e ts"
+    "start:promisifying": "nodemon --exec 'npm run cap9:promisifying' -e ts",
+    "start:promisifyingWithWrite": "nodemon --exec 'npm run cap9:promisifyingWithWrite' -e ts"
   },
   "keywords": [],
   "author": "",
