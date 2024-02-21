@@ -11,7 +11,7 @@ client.connect(PORT, 'localhost', () => {
     client.write('Who needs a browser to communicate?');
 });
 
-//get data, send us to server
+//get data, send to server
 process.stdin.on('data', (data) => {
     client.write(data);
 });
