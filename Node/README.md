@@ -123,4 +123,15 @@ STATUS_CODE=200 #status code example
   <code>npm run start:serverHTTPS</code><br />
   <code>npm run start:serverTCP</code><br />
   <code>npm run start:serverUDP</code>
+  <hr />
 </details>
+
+<details>
+  <summary>References Chapter 8</summary>
+  <hr />
+  <strong>Commands run and test:</strong>
+  <br />
+  <code>npm run start:childProcess</code><br />
+  <code>npm run start:findChildProcess</code><br />
+  <code>npm run start:findChildProcessWithoutBuffer</code><br />
+  </details>
