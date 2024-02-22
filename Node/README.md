@@ -181,6 +181,6 @@ STATUS_CODE=200 #status code example
   <br />
   <strong>Load test for server</strong>
   <br />
-  <code>npm run test:loadtest</code><br />
+  <code>npm run test:loadtest</code>
 </details>
 
