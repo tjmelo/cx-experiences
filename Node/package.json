@@ -37,6 +37,9 @@
     "cap8:findChildProcessWithoutBuffer": "ts-node cap.8/findChildProcessWithoutBuffer",
     "cap9:promisifying": "ts-node cap.9/promisifying",
     "cap9:promisifyingWithWrite": "ts-node cap.9/promisifyingWithWrite",
+    "cap10:simpleExpressRequest": "ts-node cap.10/simpleExpressRequest",
+    "cap10:serverWithRedis": "ts-node cap.10/serverWithRedis",
+    "cap10:messageWithRedis": "ts-node cap.10/messageWithRedis",
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
     "start:buffers": "nodemon --exec 'npm run cap2:buffers' -e ts",
@@ -65,17 +68,21 @@
     "start:clientUDP": "nodemon --exec 'npm run cap7:clientUDP' -e ts",
     "start:serverHTTPS": "nodemon --exec 'npm run cap7:serverHTTPS' -e ts",
     "start:serverTCP": "nodemon --exec 'npm run cap7:serverTCP' -e ts",
-    "start:serverUDP": "nodemon --exec 'npm run cap7:serverUDP' -e ts"
+    "start:serverUDP": "nodemon --exec 'npm run cap7:serverUDP' -e ts",
     "start:childProcess": "nodemon --exec 'npm run cap8:childProcess' -e ts",
     "start:findChildProcess": "nodemon --exec 'npm run cap8:findChildProcess' -e ts",
-    "start:findChildProcessWithoutBuffer": "nodemon --exec 'npm run cap8:findChildProcessWithoutBuffer' -e ts"
+    "start:findChildProcessWithoutBuffer": "nodemon --exec 'npm run cap8:findChildProcessWithoutBuffer' -e ts",
     "start:promisifying": "nodemon --exec 'npm run cap9:promisifying' -e ts",
-    "start:promisifyingWithWrite": "nodemon --exec 'npm run cap9:promisifyingWithWrite' -e ts"
+    "start:promisifyingWithWrite": "nodemon --exec 'npm run cap9:promisifyingWithWrite' -e ts",
+    "start:simpleExpressRequest": "nodemon --exec 'npm run cap10:simpleExpressRequest' -e ts",
+    "start:serverWithRedis": "nodemon --exec 'npm run cap10:serverWithRedis' -e ts",
+    "start:messageWithRedis": "nodemon --exec 'npm run cap10:messageWithRedis' -e ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@types/node": "^18.11.18",
     "nodemon": "^2.0.20",
     "ts-node": "^10.9.1",
@@ -85,6 +92,9 @@
     "async": "^3.2.5",
     "chokidar": "^3.6.0",
     "dotenv": "^16.0.3",
-    "node-mysql": "^0.4.2"
+    "express": "^4.18.2",
+    "express-generator": "^4.16.1",
+    "node-mysql": "^0.4.2",
+    "redis": "^4.6.13"
   }
 }
