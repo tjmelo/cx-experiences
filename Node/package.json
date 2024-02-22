@@ -40,6 +40,8 @@
     "cap10:simpleExpressRequest": "ts-node cap.10/simpleExpressRequest",
     "cap10:serverWithRedis": "ts-node cap.10/serverWithRedis",
     "cap10:messageWithRedis": "ts-node cap.10/messageWithRedis",
+    "cap11:simpleAssertTest": "ts-node cap.11/simpleAssertTest",
+    "cap11:simpleAssertFailTest": "ts-node cap.11/simpleAssertFailTest",
     "start:server": "nodemon --exec 'npm run cap1:server' -e ts",
     "start:hello": "nodemon --exec 'npm run cap1:hello' -e ts",
     "start:buffers": "nodemon --exec 'npm run cap2:buffers' -e ts",
@@ -76,13 +78,20 @@
     "start:promisifyingWithWrite": "nodemon --exec 'npm run cap9:promisifyingWithWrite' -e ts",
     "start:simpleExpressRequest": "nodemon --exec 'npm run cap10:simpleExpressRequest' -e ts",
     "start:serverWithRedis": "nodemon --exec 'npm run cap10:serverWithRedis' -e ts",
-    "start:messageWithRedis": "nodemon --exec 'npm run cap10:messageWithRedis' -e ts"
+    "start:messageWithRedis": "nodemon --exec 'npm run cap10:messageWithRedis' -e ts",
+    "test:simpleAssertTest": "nodemon --exec 'npm run cap11:simpleAssertTest' -e ts",
+    "test:simpleAssertFailTest": "nodemon --exec 'npm run cap11:simpleAssertFailTest' -e ts",
+    "test:simpleNodeUnitTest": "npx nodeunit cap.11/simpleNodeUnitTest.ts",
+    "test:simpleMochaTest": "npx mocha --parallel -r ts-node/register cap.11/simpleMochaTest.test.ts",
+    "test:loadtest": "npx loadtest -n 1000 -c 50 http://localhost:3000"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "@types/mocha": "^10.0.6",
     "@types/node": "^18.11.18",
     "nodemon": "^2.0.20",
     "ts-node": "^10.9.1",
@@ -94,7 +103,10 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-generator": "^4.16.1",
+    "loadtest": "^8.0.7",
+    "mocha": "^10.3.0",
     "node-mysql": "^0.4.2",
+    "nodeunit": "^0.11.3",
     "redis": "^4.6.13"
   }
 }
