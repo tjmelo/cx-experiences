@@ -5,6 +5,6 @@ print(someExampleVariable)
 
 print(5 + 5)
 
-6 * 2
+print(6 * 2)
 
-(15 + 5 + 10) * 3
+print((15 + 5 + 10) * 3)
