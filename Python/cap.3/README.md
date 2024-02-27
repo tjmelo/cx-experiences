@@ -77,5 +77,24 @@ while Cont <= 10:
 print("End program")
 
 ```
+
+#### Try / except
+
+Execute a condition and in case no expected value, the program gets an output error as an except. Example:
+
+```py
+A = 5
+B = 0
+
+try:
+    R = A / B
+    print("Result: R = %.1f" % R)
+except:
+    print("It's not possible to calculate.") # Get a error
+```
+
+
+
+
 ---
 Have a nice code :fire:
