@@ -5,7 +5,7 @@ while i < N:
     R = N % i
 
     if R == 0:
-        print("%d não é primo" % N)
+        print("%d it's not prime" % N)
         break
     i += 1
 else:
