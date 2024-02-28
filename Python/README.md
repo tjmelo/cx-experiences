@@ -18,3 +18,4 @@ Experiences by Python
 
 - [Chapter 1](cap.1/)
 - [Chapter 2](cap.2/)
+- [Chapter 3](cap.3/)
