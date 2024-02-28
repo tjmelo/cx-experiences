@@ -9,4 +9,4 @@ while i < N:
         break
     i += 1
 else:
-    print("%d é primo" % N)
+    print("%d it's prime" % N)
