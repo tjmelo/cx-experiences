@@ -174,11 +174,10 @@ print(L) # ['O','n','e',' ','t','e','x','t']
 S = '5 7 8.8 12'
 L = S.split('') # separete by white space
 print(L) # ['5', '7', '8.8', '12']
-
 ```
 ### In operator
 
-- O operador `in` permite verificar, por meio de uma iteração, se existe um elemento na lista. O operador `in` pode ser usado também em outros tipos estruturados de dados no Python. Example:
+With an iteration, the `in` operator allows us to verify, if there's an element in the list. It can be used in other structured data types in Python as well.
 
 ```py
 L = [3, 6, 9]
@@ -196,7 +195,6 @@ else:
     print('We do not have this one')
 
 # We do not have this one
-
 ```
 ### Methods of list
 
@@ -245,5 +243,103 @@ print(L) # [42, 32, 22, 21, 15, 5, 3]
 
 L.clear()
 print(L) # []
+```
+### Linked list
+In Python's list, when you refer to a just created list, by another object, that new object becomes from the first object a mention, using the same `id` from memory. If necessary, to create a new copy from the first object, we can use the `.copy()` method in this object. Example:
+
+```py
+L = [2, 4, 6, 8, 10]
+A = L 
+print(A) # [2, 4, 6, 8, 10] (same reference id of L list)
+
+B = L.copy()
+print(B) # [2, 4, 6, 8, 10] (another reference id)
+```
+### Nesting list
+Lists inside a list. There aren't limits to deep nesting. Example:
+
+```py
+L = [[1, 2, 3], [4, 5, 6]]
+
+print(L[0]) # [1, 2, 3]
+print(L[1]) # [5, 5, 6]
+
+print(L[0][0]) # [1]
+print(L[1][0]) # [4]
+```
+## Tuple
+A Tuple looks like a list element but is mutable as a string. It supports nested lists as well.
+
+Inside a tuple, the list content can be manipulated like anything. But the list, himself, can't be renamed or deleted from the tuple.
+
+Basic operations with tuples:
+
+```py
+V = () 
+
+print(V) # empty tuple
+print(len(V)) # 0
+
+P = 3, 6, 9
+print(P) (3, 6, 9)
+
+T = (17, 3, 'txt', 3.8)
+print(type(T)) # <class 'tuple'>
+
+print(len(T)) # 4
+print(T[0]) # 17
+
+T = T + (15, 16)
+print(T) # (17, 3, 'txt', 3.8, 15, 16)
+
+M = (0 ,1)
+M = M * 6
+print(M) # (0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)
+```
+
+#### Commons error in the Tuple's definition
+
+```py
+T = (14) # considered an integet
+print(type(T)) # <class 'int'>
+
+T = (14,) #using comma inside parentesis
+print(type(T)) # <class 'tuple'>
+```
+## Range
+
+Examples of a range type
+
+```py
+L = list(range(10))
+print(L) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+L = list(range(5, 15))
+print(L) # [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+L = list(range(-3, 4))
+print(L) # [-3, -2, -1, 0, 1, 2, 3]
 
 ```
+## For
+Iteration list with `for`. Example:
+
+```py
+L = [2, 4, 6, 8, 10]
+i = 0
+
+for x in L :
+    print(i, x)
+    i += 1
+```
+The for loop receives an `else` instruction for complement. Like this:
+```py
+for item in sequence
+    something...
+else:
+    something...
+```
+The commands `break`, `continue`, are useful in `for` loop.
+
+
+
