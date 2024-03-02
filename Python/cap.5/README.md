@@ -10,7 +10,7 @@ def Sum (X, Y):
     R = X + Y
     return R
 ```
-The principal concept of a function is to create an independent group of commands, splitting a big and complex algorithm into small pieces. In this case, when those parts are joined, the program executes each respective block.
+The main concept of a function is to create an independent group of commands, splitting a big and complex algorithm into small pieces. In this case, when those parts are joined, the program executes each respective block.
 
 ### Function scope
 
