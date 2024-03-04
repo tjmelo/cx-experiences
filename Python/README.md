@@ -12,7 +12,7 @@ Experiences by Python
 </div>
 
 ### Requirements 
-![Python](https://img.shields.io/badge/Python-yellow?style=flat&logo=Python)
+![Python](https://img.shields.io/badge/Python-gray?style=flat&logo=Python)
 
 ### Chapter's references
 
@@ -22,3 +22,4 @@ Experiences by Python
 - [Chapter 4](cap.4/)
 - [Chapter 5](cap.5/)
 - [Chapter 6](cap.6/)
+- [Chapter 7](cap.7/)
