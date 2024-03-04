@@ -21,3 +21,4 @@ Experiences by Python
 - [Chapter 3](cap.3/)
 - [Chapter 4](cap.4/)
 - [Chapter 5](cap.5/)
+- [Chapter 6](cap.6/)
